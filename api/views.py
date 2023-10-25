@@ -5,6 +5,7 @@ from apps.booking.models import *
 from apps.guest.models import *
 from rest_framework.status import *
 from .serializer import *
+from .serializer import HotelSerializers
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAdminUser
 from rest_framework_simplejwt.authentication import JWTAuthentication
